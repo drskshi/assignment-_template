@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-final_assignment_template-fe6fa835-eb9b-48ea-b1bb-a50528f5e29e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assest\Video\**" />
+    <Content Remove="wwwroot\assest\Video\**" />
+    <EmbeddedResource Remove="wwwroot\assest\Video\**" />
+    <None Remove="wwwroot\assest\Video\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\assest\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="wwwroot\assest\csv\salaries2023.csv" />
+    <None Include="wwwroot\assest\images\background\bg1.jpg" />
+    <None Include="wwwroot\assest\images\background\bg2.jpg" />
+    <None Include="wwwroot\assest\images\background\bg3.jpg" />
+    <None Include="wwwroot\assest\images\background\bg4.jpg" />
+    <None Include="wwwroot\assest\images\background\bg5.jpg" />
+    <None Include="wwwroot\assest\images\background\bg6.jpg" />
+    <None Include="wwwroot\assest\images\background\bg7.jpg" />
+    <None Include="wwwroot\assest\images\background\Blockchain3.jpg" />
+    <None Include="wwwroot\assest\images\background\CloudComputing.jpg" />
+    <None Include="wwwroot\assest\images\background\Robotics2.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\amazon_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\bard.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\bard_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\chatgpt.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\chatgpt_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\dalle.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\dalle_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\githubcopilot_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\google.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\google_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\ibm_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\iot.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\job.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\microsoft.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\midjourney.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\midjourney_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\ms_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\pie.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\synthesia_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genaisites\x.jpg" />
+    <None Include="wwwroot\assest\images\genai\amazon_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\amazon_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\bard_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\bard_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\chatgpt_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\chatgpt_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\dalle_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\dalle_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\githubcopilot_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\githubcopilot_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\google_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\google_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\ibm_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\ibm_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\midjourney_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\midjourney_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\ms_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\ms_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\synthesia_large.jpg" />
+    <None Include="wwwroot\assest\images\genai\synthesia_thumbnail.jpg" />
+    <None Include="wwwroot\assest\images\genai\x.jpg" />
+    <None Include="wwwroot\assest\videos\video.mp4" />
+  </ItemGroup>
+
+</Project>

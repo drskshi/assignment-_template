@@ -1,0 +1,45 @@
+﻿
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.navbar {
+   
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.login-partial {
+    color: white;
+}
+
+
+#main_section {
+    background-image: url(../assest/images/background/bg2.jpg);
+}
+
+
